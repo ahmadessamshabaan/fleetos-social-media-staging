@@ -28,3 +28,15 @@ Creative reference to inspect: marketing/modules/maintenance.mp4 and maintenance
 Approval: exact new creative requires Ahmed approval under latest explicit instruction. NOT YET APPROVED, SCHEDULED OR LIVE.
 Queue check: Buffer zero draft/needs_approval/scheduled/sending/error; Metricool zero scheduled 2026-10-08 through 2026-10-15.
 Timing evidence: Metricool Instagram best-times all zero, therefore inconclusive; Facebook Friday peak reported 10:00 UAE score 12,767, not proof of outcome.
+
+## 2026-10-26 - Maintenance V3 approved arc scheduled using Metricool Free
+Owner approval: exact three Maintenance V3 MP4 files approved in previous conversation; unchanged.
+Platform: Metricool Free MCP contingency following Buffer connector creation block; Metricool imported original release media.
+Publishing date/time (Asia/Dubai), both Instagram @fleetosuae and Facebook Fleetos:
+- 2026-10-28 10:00 Morning Story, id 406205951, uuid -1379753085532549220.
+- 2026-10-28 13:00 Hero Reel, id 406205790, uuid -1207465501091149561; original approved caption.
+- 2026-10-28 18:00 Follow-up Story, id 406205572, uuid -4358157643137790327.
+Verified 2026-10-26: three Metricool scheduled posts, each with both Instagram and Facebook PENDING, autoPublish=true, draft=false. Buffer scheduled/draft queue empty.
+Stage: SCHEDULED, NOT PUBLISHED. Do not claim publication until provider evidence.
+No paid upgrade; no GitHub Actions; no application changes.
+Next action: verify publication statuses and live URLs on October 28 after the respective time windows.

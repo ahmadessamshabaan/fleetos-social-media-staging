@@ -1,5 +1,5 @@
 # FleetOS Social Content Ledger
-Last reconciled: 2026-10-09 (Dubai). Source: connected Buffer post status and Metricool Reels analytics. Follow FLEETOS_SOCIAL_CONTENT_PLAYBOOK.md.
+Last reconciled: 2026-10-26 (Dubai). Source: connected Buffer post status and Metricool publishing statuses/URLs; historical analytics as dated. Follow FLEETOS_SOCIAL_CONTENT_PLAYBOOK.md.
 
 ## 2026-10-08 — Part 3 / THE NUMBERS
 Stage: Invoice → Collection → Direct Costs → Trip Profit.
@@ -47,3 +47,18 @@ Owner explicitly requested same-day publishing and rejected October 28 delay. Ex
 - 2026-10-26 13:00 Asia/Dubai Hero Reel: new Metricool id 406212059, uuid -1207465501091149561.
 - 2026-10-26 18:00 Asia/Dubai Follow-up Story: new Metricool id 406212051, uuid -4358157643137790327.
 Buffer queue empty. Existing owner-approved V3 media and hero caption unchanged. Stage: SCHEDULED / PENDING, not yet SENT. Publication verification automation rescheduled for 2026-10-26 19:30 Asia/Dubai. Daily Social Growth Manager handoff also corrected to today's dates and new IDs.
+
+## 2026-10-26 - FINAL PUBLICATION VERIFICATION (after 18:00 Asia/Dubai)
+Authoritative source: Metricool getScheduledPosts for 2026-10-26; each of the six provider records returned status=PUBLISHED, detailedStatus=Published and publicUrl. The older 2026-10-28 scheduling notes above are historical and superseded by this result.
+- Morning Story 10:00, Metricool id 406212067, uuid -1379753085532549220:
+  - Instagram PUBLISHED: https://www.instagram.com/stories/fleetosuae/4016251827062668956
+  - Facebook PUBLISHED: https://facebook.com/122100357849493757/posts/1481151173828866
+- Hero Reel 13:00, Metricool id 406212059, uuid -1207465501091149561:
+  - Instagram PUBLISHED: https://www.instagram.com/reel/De866MClTQE/
+  - Facebook PUBLISHED: https://facebook.com/reel/1093839309945252
+- Follow-up Story 18:00, Metricool id 406212051, uuid -4358157643137790327:
+  - Instagram PUBLISHED: https://www.instagram.com/stories/fleetosuae/4016495063273692263
+  - Facebook PUBLISHED: https://facebook.com/122100357849493757/posts/1626048562350575
+Result: PASS 6/6 PUBLISHED, all three approved assets across both platforms; no provider error.
+Duplicate audit: Buffer organization 6ac62b8aca3423ac47ad535c returned zero draft, needs_approval, scheduled, sending, or error posts; Metricool Oct 27-29 future queue empty. Buffer Oct 26 shows four via=network entries mirroring native platform posts (not additional Buffer publishes). There is also a distinct pre-existing FleetOS_Operations_MORNING_STORY.mp4 published to Facebook via=buffer at 2026-10-26 07:44:57 Asia/Dubai (Buffer id 6ac8bdf484976ed3ee18fd40); it is NOT a duplicate of the Maintenance V3 assets, but is an additional unrelated same-day post. No posts were deleted or re-published during verification.
+Stage: VERIFIED PUBLISHED, 2026-10-26. No paid upgrade, no GitHub Actions, no FleetOS production changes.

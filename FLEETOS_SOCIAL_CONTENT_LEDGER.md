@@ -40,3 +40,10 @@ Verified 2026-10-26: three Metricool scheduled posts, each with both Instagram a
 Stage: SCHEDULED, NOT PUBLISHED. Do not claim publication until provider evidence.
 No paid upgrade; no GitHub Actions; no application changes.
 Next action: verify publication statuses and live URLs on October 28 after the respective time windows.
+
+## 2026-10-26 - Owner correction: publish TODAY, not October 28
+Owner explicitly requested same-day publishing and rejected October 28 delay. Existing three Metricool scheduled posts were updated in-place (same UUIDs), not duplicated. All three updates returned PENDING on BOTH Instagram and Facebook with autoPublish=true and draft=false; follow-up read verified exact times and no October 28 scheduled remnants.
+- 2026-10-26 10:00 Asia/Dubai Morning Story: new Metricool id 406212067, uuid -1379753085532549220.
+- 2026-10-26 13:00 Asia/Dubai Hero Reel: new Metricool id 406212059, uuid -1207465501091149561.
+- 2026-10-26 18:00 Asia/Dubai Follow-up Story: new Metricool id 406212051, uuid -4358157643137790327.
+Buffer queue empty. Existing owner-approved V3 media and hero caption unchanged. Stage: SCHEDULED / PENDING, not yet SENT. Publication verification automation rescheduled for 2026-10-26 19:30 Asia/Dubai. Daily Social Growth Manager handoff also corrected to today's dates and new IDs.

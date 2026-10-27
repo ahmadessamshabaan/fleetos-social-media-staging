@@ -74,3 +74,13 @@ New proposed arc: Finance / Collections, distinct pain hook "DELIVERED != PAID";
 - Follow-up Story: https://github.com/ahmadessamshabaan/fleetos-social-media-staging/releases/download/social-preview/FleetOS_Collections_FOLLOWUP_STORY_REVIEW.mp4 (8s, 1080x1920, AAC audio)
 QC: all three H.264, 1080x1920 30fps, embedded AAC covers full durations; silence detection below -48dB for >=0.7s reported no gaps. Proposed caption: "Trip delivered does not mean cash collected. Delivery -> Invoice -> Payment. Keep each step visible. How does your team track unpaid invoices? #FleetOS #FleetManagement #FleetFinance #UAELogistics".
 APPROVAL GATE: NOT APPROVED. NOT SCHEDULED. NOT PUBLISHED. Do not publish or schedule until explicit Owner approval of the exact 3 video files and caption. No paid upgrades, no GitHub Actions, no production changes.
+
+## 2026-10-27 - Owner approval and verified Finance / Collections schedule
+Owner explicitly approved the exact three previously reviewed Collections MP4s and proposed hero caption. No creative changes.
+Scheduled using Metricool Free on 2026-10-28 Asia/Dubai for both Instagram @fleetosuae and Facebook Fleetos, autoPublish=true, draft=false:
+- Morning Story 10:00: post 407439166, uuid -8400747918292858812.
+- Hero Reel 13:00: post 407439150, uuid 7000160873758935885. Caption: Trip delivered does not mean cash collected. Delivery -> Invoice -> Payment. Keep each step visible. How does your team track unpaid invoices? #FleetOS #FleetManagement #FleetFinance #UAELogistics
+- Follow-up Story 18:00: post 407439136, uuid 8889467001343002635.
+Independent readback from Metricool confirmed all three posts and both providers status=PENDING, autoPublish=true, draft=false. Buffer had zero scheduled/draft posts during preflight.
+Stage: APPROVED AND SCHEDULED, NOT YET PUBLISHED. No paid upgrades, no GitHub Actions.
+Next action: verify six provider publication results and URLs after 18:00 on October 28; avoid duplicate publication.

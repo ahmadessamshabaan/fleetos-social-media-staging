@@ -84,3 +84,27 @@ Scheduled using Metricool Free on 2026-10-28 Asia/Dubai for both Instagram @flee
 Independent readback from Metricool confirmed all three posts and both providers status=PENDING, autoPublish=true, draft=false. Buffer had zero scheduled/draft posts during preflight.
 Stage: APPROVED AND SCHEDULED, NOT YET PUBLISHED. No paid upgrades, no GitHub Actions.
 Next action: verify six provider publication results and URLs after 18:00 on October 28; avoid duplicate publication.
+
+## 2026-10-28 08:55 Asia/Dubai - Daily Social Growth preflight
+Canonical playbook read. Owner approval of Collections 3-asset package was recorded Oct 27 and remains valid. Re-read Metricool schedule Oct 28-Nov 3: EXACT three approved posts, each with Instagram and Facebook providers, autoPublish=true, draft=false, both provider statuses PENDING as expected BEFORE first publish:
+- Morning Story 10:00, id 407439166, uuid -8400747918292858812
+- Hero Reel 13:00, id 407439150, uuid 7000160873758935885
+- Follow-up Story 18:00, id 407439136, uuid 8889467001343002635
+Buffer Free organization 6ac62b8aca3423ac47ad535c had zero draft/needs_approval/scheduled/sending/error entries; channels connected (Instagram fleetosuae, Facebook Fleetos). No duplicate scheduling or publication created. Stage remains APPROVED + SCHEDULED, NOT PUBLISHED. Existing Oct 28 19:30 Dubai publication-verification task should check provider PUBLISHED statuses and live URLs after all three windows.
+
+Maintenance V3 2026-10-26 Hero Reel analytics snapshot retrieved Oct 28 morning from Metricool:
+- Instagram https://www.instagram.com/reel/De866MClTQE/: reach 15, views 15, averageWatchTime provider 2.695 (unit not validated), interactions 0, shares 0, saves 0, comments 0. Retention null; reported view-rate 13.300003 (provider field is percentage, sample too small).
+- Facebook https://www.facebook.com/reel/1093839309945252/: views 143, actions 0, likes 0, averageWatchTime provider 1 (unit not validated), reported reach 0 (inconsistent with views, treat as unavailable/incomplete, NOT true zero reach).
+Directional only; no mature week-over-week conclusions. Sunday review remains required.
+
+PREP-AHEAD for possible 2026-10-29 EDUCATIONAL arc: "BUSY TRUCKS != PROFIT" (trip revenue minus direct costs), using canonical website finance/analytics/operations module footage and original audio carried from previously approved Collections Reel. Three NEW 1080x1920 H.264/AAC REVIEW assets generated, inspected in contact sheet and verified with ffmpeg (no silence events >=0.7s at -48 dB, duration 8s/18s/8s):
+- Morning: https://github.com/ahmadessamshabaan/fleetos-social-media-staging/releases/download/social-preview/FleetOS_Profitability_MORNING_REVIEW.mp4
+- Hero: https://github.com/ahmadessamshabaan/fleetos-social-media-staging/releases/download/social-preview/FleetOS_Profitability_HERO_REVIEW.mp4
+- Follow-up: https://github.com/ahmadessamshabaan/fleetos-social-media-staging/releases/download/social-preview/FleetOS_Profitability_FOLLOW_REVIEW.mp4
+Proposed hero caption for exact Owner review:
+"أسطولك مشغول… بس هل كل رحلة مربحة؟ 🚛
+Busy trucks don't automatically mean profitable trips.
+Trip revenue − direct trip costs = trip profit (before overhead).
+How do you measure profit per trip today?
+#FleetOS #FleetManagement #FleetFinance #UAELogistics"
+Illustrative educational content; NOT actual customer footage or results. Owner approval: NOT YET GIVEN. Status: PREVIEW ONLY; NOT SCHEDULED OR PUBLISHED. No partial publication, paid upgrade, or GitHub Actions.

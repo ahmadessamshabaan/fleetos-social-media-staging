@@ -108,3 +108,17 @@ Trip revenue − direct trip costs = trip profit (before overhead).
 How do you measure profit per trip today?
 #FleetOS #FleetManagement #FleetFinance #UAELogistics"
 Illustrative educational content; NOT actual customer footage or results. Owner approval: NOT YET GIVEN. Status: PREVIEW ONLY; NOT SCHEDULED OR PUBLISHED. No partial publication, paid upgrade, or GitHub Actions.
+
+## 2026-10-28 19:31 Asia/Dubai — Finance / Collections ACTUAL PUBLICATION AUDIT (AFTER 18:00)
+Source: Metricool getScheduledPosts on 2026-10-28; Buffer list_posts for organization 6ac62b8aca3423ac47ad535c. This entry supersedes earlier PENDING-only snapshots.
+- Morning Story 10:00, post 407439166, uuid -8400747918292858812:
+  - Instagram PUBLISHED: https://www.instagram.com/stories/fleetosuae/4017701300250825388
+  - Facebook PUBLISHED: https://facebook.com/122100357849493757/posts/2036113097042741
+- Hero Reel 13:00, post 407439150, uuid 7000160873758935885:
+  - Instagram PUBLISHED: https://www.instagram.com/reel/DfCEW50jZWR/
+  - Facebook PUBLISHED: https://facebook.com/reel/1421338766654877
+- Follow-up Story 18:00, post 407439136, uuid 8889467001343002635:
+  - Instagram ERROR: "You have reached your Metricool account limit." No public URL.
+  - Facebook ERROR: "You have reached your Metricool account limit." No public URL.
+FINAL RESULT: 4/6 PUBLISHED, 2/6 ERROR. The mandatory 3-part Story Arc did not complete. Do not report 6/6 published or treat as an atomic success. No re-post or isolated retry performed.
+Buffer check: zero draft/needs_approval/scheduled/sending/error; three Oct 28 SENT records have via=network (platform imports), not Buffer-originated duplicate publishes. Metricool future queue Oct 29-Nov 3 empty. Do not initiate paid upgrade or GitHub Actions. Metricool account limit may block future posts; evaluate no-cost options before any new approved arc is scheduled.

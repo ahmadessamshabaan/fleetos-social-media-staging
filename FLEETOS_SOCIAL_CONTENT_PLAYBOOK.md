@@ -463,3 +463,6 @@ Required package:
 If any one part is missing or unapproved, publish **nothing** from that day's arc. Prepare the missing content first.
 
 Whenever possible, prepare the next publishing day's complete package in advance so the publishing run is execution, not last-minute creative production.
+
+## Brand voice — mandatory pronunciation (Owner directive 2026-11-04)
+Every occurrence of **FleetOS** in spoken narration MUST be pronounced in English as the brand name "Fleet OS", including Arabic-language videos, reels, stories, intros and outros. Never pronounce it as an Arabic transliteration ("فليت أو إس") or use an Arabic TTS engine for the brand word. For Arabic scripts, splice a dedicated English-language voice segment saying "Fleet OS" between Arabic speech segments, then normalize volume and QC the audible transitions. Keep on-screen brand spelling FleetOS. This applies to ALL future videos and requires explicit audio verification before publication. If any brand pronunciation is wrong, fail the atomic Story Arc publication gate and re-render before posting.

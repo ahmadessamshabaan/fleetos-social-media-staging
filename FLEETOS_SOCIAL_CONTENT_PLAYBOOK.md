@@ -466,3 +466,17 @@ Whenever possible, prepare the next publishing day's complete package in advance
 
 ## Brand voice — mandatory pronunciation (Owner directive 2026-11-04)
 Every occurrence of **FleetOS** in spoken narration MUST be pronounced in English as the brand name "Fleet OS", including Arabic-language videos, reels, stories, intros and outros. Never pronounce it as an Arabic transliteration ("فليت أو إس") or use an Arabic TTS engine for the brand word. For Arabic scripts, splice a dedicated English-language voice segment saying "Fleet OS" between Arabic speech segments, then normalize volume and QC the audible transitions. Keep on-screen brand spelling FleetOS. This applies to ALL future videos and requires explicit audio verification before publication. If any brand pronunciation is wrong, fail the atomic Story Arc publication gate and re-render before posting.
+
+## 18. Verified direct Buffer publishing workflow — Owner decision 2026-11-05
+
+Use the connected Buffer app directly from ChatGPT to publish final, QC-passed, Owner-approved FleetOS social media. Lenovo, PowerShell and Claude are not needed for posting existing approved video assets. This does not relax the atomic Story Arc, media QC, brand voice or Owner approval gates above.
+
+**Connected accounts (reverify before each campaign):** Buffer organization `6ac62b8aca3423ac47ad535c`; Instagram business `6ac62c6d6a5c39ccb63f2e50`; Facebook page `6ac62c176a5c39ccb63f2b99`.
+
+**Preflight:** read FleetOS Master Control, Working Protocol, Decision Log, this playbook and social ledger. Confirm full Morning Story + Hero Reel + Follow-up Story package, exact final approved MP4s, audible and visual QC, English pronunciation of spoken FleetOS in every language, captions, direct publicly downloadable GitHub release video URLs, and channel connection via Buffer `list_channels`. Check Buffer `list_posts` for matching `sent`, `sending`, `scheduled`, `draft` or `error` posts before any create/retry to prevent duplicates.
+
+**Publish:** use Buffer `create_post` per channel with `schedulingType: automatic`; for explicit immediate publishing use `mode: shareNow` (otherwise approved schedule/queue). Supply exact approved `text`, `channelId`, and `assets: [{video:{url:"PUBLIC_DIRECT_MP4_URL"}}]`. For Instagram set `metadata.instagram.type` to `story` (Morning/Follow-up) or `reel` (Hero), with `shouldShareToFeed: true` for the Hero. For Facebook set `metadata.facebook.type` to `story` or `reel` respectively. Do not publish unapproved or pronunciation-defective assets.
+
+**Postflight:** `sending` is NOT a publish confirmation. Verify every post via Buffer `list_posts` or `get_post` until `sent` or an explicit error. If any call is blocked, check whether the post was created before retrying; never bypass safety checks. Record per-platform post ID, source filename, sent timestamp and status in the social ledger. Buffer `sent` is provider-confirmed, not independent live-platform verification.
+
+**Verified precedent:** On 2026-11-05 the English-only InvoiceToPayment V4 campaign reached Buffer `sent` 6/6: Instagram Morning `6aec15a9660b2991f153e61f`, Hero `6aec15c275052a1eb8215ac0`, Follow-up `6aec15db3ddb81d22108aa44`; Facebook Morning `6aec15b575052a1eb821586f`, Hero `6aec15ce3ddb81d22108a6dc`, Follow-up `6aec1bcd80f7fd0537f2891b`. Arabic versions were excluded because their brand pronunciation had not been corrected and verified.

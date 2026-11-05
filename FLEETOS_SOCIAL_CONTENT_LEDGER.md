@@ -137,3 +137,18 @@ Verified on 2026-11-04 from connected Buffer organization 6ac62b8aca3423ac47ad53
 | Follow AR | Facebook | 6ae966c4a5f6b0f7438a07f2 | Nov 3 17:00 | 2026-11-03 13:01:35.624Z | SENT |
 
 Automation incident (Nov 1): Social Growth Manager run failed with requires_user_action=true, blank error. Re-enabled, future schedule set from 2026-11-04 at 09:00 Asia/Dubai; next_run_time remained null on 2026-11-04 read, so automatic recurrence is NOT yet proved healthy. An immediate inline run on Nov 3 succeeded in scheduling this campaign. Next action: verify subsequent task run and publish a distinct, QC-checked full Story Arc. No Product Production, GitHub Actions, or paid changes were made.
+
+## 2026-11-05 — InvoiceToPayment V4 English-only arc — BUFFER SENT 6/6
+
+Owner directed immediate publication. Arabic videos excluded due to unresolved spoken brand pronunciation. Direct connected Buffer create_post (automatic/shareNow) succeeded without Lenovo/PowerShell/Claude. Buffer provider-confirmed SENT on all six, with error=null; not independently verified on public platform pages. This is the acceptance evidence for playbook section 18. Do not repost these assets.
+
+| Stage | Platform | Buffer post ID | Status |
+| --- | --- | --- | --- |
+| Morning EN | Instagram | 6aec15a9660b2991f153e61f | SENT |
+| Morning EN | Facebook | 6aec15b575052a1eb821586f | SENT |
+| Hero EN | Instagram | 6aec15c275052a1eb8215ac0 | SENT |
+| Hero EN | Facebook | 6aec15ce3ddb81d22108a6dc | SENT |
+| Follow-up EN | Instagram | 6aec15db3ddb81d22108aa44 | SENT |
+| Follow-up EN | Facebook | 6aec1bcd80f7fd0537f2891b | SENT |
+
+Media: `FleetOS_InvoiceToPayment_{MORNING,HERO,FOLLOW}_EN_V4_20261104.mp4` from GitHub `social-preview` release. Facebook Morning sentAt 2026-11-05T05:36:00.261Z, Hero 2026-11-05T05:36:23.284Z, Follow-up 2026-11-05T06:01:57.319Z. All six `sent` independently re-read from Buffer post list during publication session. GitHub playbook documentation commit `325dccf654f0523c31644dea245dea081111ae69`.

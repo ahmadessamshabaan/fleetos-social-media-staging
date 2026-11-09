@@ -1,0 +1,137 @@
+{
+  "status": "LOCAL_QC_PENDING_NOT_FOR_PUBLISH",
+  "assets": [
+    {
+      "file": "FleetOS_InvoiceToPayment_MORNING_EN_V5_20261109.mp4",
+      "duration": 8.366667,
+      "audio_duration": 7.584,
+      "bytes": 155190,
+      "sha256": "2a53b1d1fb7865f7b26c4408c88ecbd06f662d5ec63a69bd07ff38c33fc9c334",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_InvoiceToPayment_MORNING_AR_V5_20261109.mp4",
+      "duration": 10.466667,
+      "audio_duration": 9.648,
+      "bytes": 195376,
+      "sha256": "003fbf1ecfaee58101e3ec1457651f23212e06af252b3977a7051cb4ac8d5dc3",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_InvoiceToPayment_HERO_EN_V5_20261109.mp4",
+      "duration": 13.6,
+      "audio_duration": 12.792,
+      "bytes": 260425,
+      "sha256": "e32992448cbd8be58578720bc2eb2e8d320d290010e86d528d534bd8b4890f71",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_InvoiceToPayment_HERO_AR_V5_20261109.mp4",
+      "duration": 18.333333,
+      "audio_duration": 17.52,
+      "bytes": 334030,
+      "sha256": "73cdba97ed2302089cd1962dbdd2290abf69eb69a3bea918302538c8abd8dfc8",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_InvoiceToPayment_FOLLOW_EN_V5_20261109.mp4",
+      "duration": 8.9,
+      "audio_duration": 8.088,
+      "bytes": 179865,
+      "sha256": "c55e66e9c403571098f18157c9a520ae76624ed0849d482aabc9c2ad6db3bde6",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_InvoiceToPayment_FOLLOW_AR_V5_20261109.mp4",
+      "duration": 12.233333,
+      "audio_duration": 11.424,
+      "bytes": 223520,
+      "sha256": "966212783b7aa1ffa400c11e5772e69c799fd7a72f3a5979ef180e596c4d5e80",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_TripMargin_MORNING_EN_V5_20261109.mp4",
+      "duration": 7.766667,
+      "audio_duration": 6.973042,
+      "bytes": 138675,
+      "sha256": "51bb897905133a29668e8cf042df0b7d51140627e798c2e63d3f020620c6d6a1",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_TripMargin_MORNING_AR_V5_20261109.mp4",
+      "duration": 9.033333,
+      "audio_duration": 8.224458,
+      "bytes": 187283,
+      "sha256": "4a3f788385d885bf8dd93e8a766bd56ca160b6ca433efc5f6b20c92fede4a419",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_TripMargin_HERO_EN_V5_20261109.mp4",
+      "duration": 13.233333,
+      "audio_duration": 12.426875,
+      "bytes": 265147,
+      "sha256": "af52c498441c007a62889ced371ae43f9b9d7131f10493bbb725bb7098914bf8",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_TripMargin_HERO_AR_V5_20261109.mp4",
+      "duration": 19.8,
+      "audio_duration": 18.992188,
+      "bytes": 496100,
+      "sha256": "5cd21ee6a2ba34cd475808cf853cfdcd57599f1e71148ee83c79121affc2710c",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_TripMargin_FOLLOW_EN_V5_20261109.mp4",
+      "duration": 7.133333,
+      "audio_duration": 6.325625,
+      "bytes": 135263,
+      "sha256": "bf1fab94d0c661f41b30aaa78a2c6d6fff2a9920c7a8ecaa842fd9672ac1edef",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    },
+    {
+      "file": "FleetOS_TripMargin_FOLLOW_AR_V5_20261109.mp4",
+      "duration": 8.0,
+      "audio_duration": 7.202813,
+      "bytes": 187969,
+      "sha256": "c19f5d3de60f2745618af41558e150c852da565130e5bf2a9e48ec68ed4ed1d8",
+      "technical_decode": "PASS",
+      "visual_method": "continuous slow camera movement on original approved static card; no repeated b-roll",
+      "audible_review": "PENDING",
+      "visual_review": "PENDING"
+    }
+  ]
+}

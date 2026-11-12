@@ -27,3 +27,11 @@ A. Transfer/host the actual approved static creative to a public media URL (no a
 B. Video DeliveryInvoice and InvoiceCash arcs are DRAFT, requiring final quality gate. Therefore companion image scheduling is currently intentionally BLOCKED.
 C. Diagnose the four old media-processing errors via source file/container/codec/metadata validation, Buffer response and external URL test before attempting any retry; separate from new image track.
 D. Check remaining free queue slots immediately prior to scheduling any additional image.
+
+## 2026-11-12 LIVE PNG IMPORT PROOF — PASS (draft only)
+- Authorized Lenovo created a disposable 1080x1350 PNG and uploaded it via authenticated `gh release upload social-preview` (exit code 0).
+- Release asset direct URL returned HTTP 200 with nonzero payload (13,275 bytes; GitHub content type application/octet-stream; Buffer recognized actual MIME as image/png).
+- Buffer Instagram create_post with image URL, `saveToDraft=true`, `schedulingType=automatic`, `metadata.instagram.type=post` returned DRAFT id 6af58f09f662733b84a70152, image dimensions 1080x1350, MIME image/png, error=null. Independent get_post readback confirmed identical status and media URL.
+- Test draft DELETED from Buffer and disposable GitHub release asset DELETED, exit code 0. No public post or scheduled slot consumed.
+- Scope: proves Lenovo→GitHub→Buffer Instagram DRAFT import, NOT production scheduling/delivery, NOT Facebook image import, and NOT transfer of generated sandbox image to Lenovo. Leave these as separate verifications.
+- The four historical video errors remain; raw GitHub video URL was separately downloaded with HTTP 200, so URL disappearance is not established as their root cause. Source-media compatibility and provider processing must be tested rather than assumed.
